@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+button
+{
+	padding: 10px;
+	width: 110px;
+	background: black;
+	color: orange;
+	border: 2px solid orange;
+	border-radius:2px;
+	transition: 800ms;
+}
+button:hover
+{
+	transform: scale(1.05);
+	cursor: pointer;
+	color: #94ECBE;
+	border: 2px solid #94ECBE;
+	border-radius:2px;
+	box-shadow: 0px 2px 5px #94ECBE;
+}
